@@ -15,7 +15,7 @@ body, button, input, optgroup, select, textarea {
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1.5rem;
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 .title {
     margin-bottom: 35px;
@@ -44,6 +44,53 @@ body, button, input, optgroup, select, textarea {
 .title, .heading-light, .heading-medium, .heading-semi-bold,
 .heading-bold, .heading-semi-black, .heading-black{
     font-family: 'Catamaran';
+}
+
+/* .card-block {
+    padding: .5rem;
+} */
+
+.float-xs-right {
+    float: right!important;
+}
+/* @media (max-width: 768px){
+    .price {
+            font-size: 1rem; 
+    }
+} */
+
+
+.tag-market {
+    background:  #007fff;
+    border-color:  #007fff;
+    color: rgb(255, 255, 255);
+    height: 35px;
+    padding: 0 8px;
+    border-radius: 3px;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    outline: 0;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: .6px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.header-markets .tag-market:hover, .header-markets .tag-market:focus {
+    color: #fff;
+    border-color: #007fff;
+}
+
+.tag-market:hover, .tag-market:focus {
+    color: #fff;
+    background-color: #007FFF !important;
+    border: 1px solid #007FFF;
 }
 /*----------------------------------------------
 * Sections
@@ -103,14 +150,14 @@ section {
 * Navigation
 ----------------------------------------------*/
 .navbar{
-    min-height: 70px;
+    min-height: 50px;
 }
 .navbar-brand {
     padding-top: 0px;
     padding-bottom: 0px;
 }
 .nav-brand-logo{
-    width: 50px;
+    width: 40px;
 }
 .icon-togger{
     width: 24px;
@@ -153,7 +200,7 @@ section {
     margin-top: 0;
 }*/
 .navbar-toggler {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1;
     border: none;
     border-radius: 0;
