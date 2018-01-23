@@ -92,6 +92,10 @@ body, button, input, optgroup, select, textarea {
     background-color: #007FFF !important;
     border: 1px solid #007FFF;
 }
+
+.list-icon {
+    font-size: 1.7em;
+}
 /*----------------------------------------------
 * Sections
 ----------------------------------------------*/
